@@ -41,4 +41,4 @@ The above command will show an alert as below:
 ## Contributions
 * This is free software and if anyone would like to extend it to help create further improvements, please feel free to do so !
 * Please ensure that your sole purpose is to help the Indian people in getting vaccination slots across India. 
-* Do not overload the api with HTTP requests! Be nice and let others use it judiciously, put a pragmatic time intervals between fetches. 
+* Do not overload the api with HTTP requests ! Be nice and let others use it judiciously, put a pragmatic time interval between fetches. 
