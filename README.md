@@ -23,6 +23,7 @@ A simple script which can alert a Mac OS user for available slots for COVID-19 v
 > ./cowin_notifier.bash
 
 The above command will show an alert as below:
+
 ![GitHub Logo](/images/alert.png)
 
 ### Add to a cronjob to run it every 30 minutes 
