@@ -28,7 +28,13 @@ The above command will show an alert as below:
 ![GitHub Logo](/images/alert.png)
 
 ### Add to a cronjob to run it every 30 minutes 
+> crontab -e
+> 
+> Paste the line below at the end of the editor with a CTRL + V
+> 
 > 30 * * * * /home/$USER/cowin_notifier.bash
+> 
+> Type :q! to exit the editor.
 
  Thats it !
 
