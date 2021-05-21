@@ -18,6 +18,9 @@ A simple script which can alert a Mac OS user for available slots for COVID-19 v
 * Install the npm package **newman**, *This package provides the ability to fetch availability status from CoWin* :
 > sudo npm -g install newman
 
+* Clone the repo on git: 
+> git clone https://github.com/shaansharma1980/CoWin_slotter.git
+
 ## Usage
 > chmod +x cowin_notifier.bash
 > 
