@@ -1,0 +1,609 @@
+{
+	"info": {
+		"_postman_id": "786ad645-1dd7-4806-a5e4-6bfe25b430f9",
+		"name": "CoWIN - Slot finder - Final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Gurgaon",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_ggn}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_ggn}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Delhi",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del1}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del1}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Central Delhi",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del2}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del2}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "West Delhi",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del3}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del3}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "North West Delhi",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del4}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del4}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "South East Delhi",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del5}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del5}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "East Delhi",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del6}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del6}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Shahdara",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del9}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del9}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "South Delhi",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del10}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del10}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "South West Delhi",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/{{api_version}}/appointment/sessions/calendarByDistrict?district_id={{district_id_del11}}&date={{date}}&Accept-Language={{language}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"{{api_version}}",
+						"appointment",
+						"sessions",
+						"calendarByDistrict"
+					],
+					"query": [
+						{
+							"key": "district_id",
+							"value": "{{district_id_del11}}"
+						},
+						{
+							"key": "date",
+							"value": "{{date}}"
+						},
+						{
+							"key": "Accept-Language",
+							"value": "{{language}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"var moment = require('moment');",
+					"pm.environment.set('date', moment().add(1, 'day').format((\"DD-MM-YYYY\")));"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"18+ vaccination centers\", function () {",
+					"    if (pm.response.code == 200) {",
+					"        var jsonData = pm.response.json();",
+					"        var centers= jsonData.centers;",
+					"        var sessionAvailable = false;",
+					"        centers.forEach((center,idx)=>{",
+					"            center.sessions.forEach((session,sidx) =>{",
+					"                if(session.min_age_limit == 18 && session.available_capacity_dose1 > 0) {",
+					"                    sessionAvailable = true;",
+					"                    console.log(center.name, center.address, center.district_name, session.date, session.vaccine, session.available_capacity_dose1);",
+					"                }",
+					"            });",
+					"        });",
+					"",
+					"        pm.expect(sessionAvailable).to.be.true;",
+					"    }",
+					"    else {",
+					"        pm.response.to.have.status(200);",
+					"    }",
+					"})"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://cdn-api.co-vin.in/api"
+		},
+		{
+			"key": "api_version",
+			"value": "v2"
+		},
+		{
+			"key": "pin",
+			"value": "122001"
+		},
+		{
+			"key": "date",
+			"value": "20-05-2021"
+		},
+		{
+			"key": "language",
+			"value": "hi-IN"
+		},
+		{
+			"key": "state_id_hr",
+			"value": "12"
+		},
+		{
+			"key": "state_id_del",
+			"value": "9"
+		},
+		{
+			"key": "state_id_kar",
+			"value": "16"
+		},
+		{
+			"key": "state_id_uk",
+			"value": "35"
+		},
+		{
+			"key": "state_id_up",
+			"value": "34"
+		},
+		{
+			"key": "state_id",
+			"value": "{{state_id_hr}}"
+		},
+		{
+			"key": "district_id",
+			"value": "{{district_id_ggn}}"
+		},
+		{
+			"key": "district_id_ggn",
+			"value": "188"
+		},
+		{
+			"key": "district_id_del1",
+			"value": "140"
+		},
+		{
+			"key": "district_id_del2",
+			"value": "141"
+		},
+		{
+			"key": "district_id_del3",
+			"value": "142"
+		},
+		{
+			"key": "district_id_del4",
+			"value": "143"
+		},
+		{
+			"key": "district_id_del5",
+			"value": "144"
+		},
+		{
+			"key": "district_id_del6",
+			"value": "145"
+		},
+		{
+			"key": "district_id_del7",
+			"value": "146"
+		},
+		{
+			"key": "district_id_del8",
+			"value": "147"
+		},
+		{
+			"key": "district_id_del9",
+			"value": "148"
+		},
+		{
+			"key": "district_id_del10",
+			"value": "149"
+		},
+		{
+			"key": "district_id_del11",
+			"value": "150"
+		},
+		{
+			"key": "district_id_gbd",
+			"value": "651"
+		},
+		{
+			"key": "district_id_gbn",
+			"value": "650"
+		},
+		{
+			"key": "district_id_kau",
+			"value": "666"
+		}
+	]
+}
