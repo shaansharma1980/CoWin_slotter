@@ -9,6 +9,7 @@ A simple script which can alert a Mac OS user for available slots for COVID-19 v
 ## Setup
 * Install python using homebrew: 
 > /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+> 
 > brew install python
 
 * Next, install npm (node package manager)
